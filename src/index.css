@@ -14,6 +14,10 @@ footer {
   padding-top: 35px;
 }
 
+.black {
+  background-color: rgb(1, 4, 6) !important;
+}
+
 .portfolio-container {
   height: 90vh;
   min-height: 100%;
