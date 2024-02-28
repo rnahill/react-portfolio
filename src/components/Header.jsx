@@ -6,7 +6,10 @@ export default function Header() {
 
     return (
         <div>
-            <Navigation />;
+            <header>
+                <Navigation />
+                <h1>Welcome</h1>
+            </header>
         </div>
     );
     
