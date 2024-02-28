@@ -1,5 +1,6 @@
 
 
+
 footer {
   position: absolute;
   bottom: 0;
@@ -9,4 +10,11 @@ footer {
   color: rgb(171, 190, 202);
   text-align: center;
   padding-top: 35px;
+}
+
+.portfolio-container {
+  height: 90vh;
+  min-height: 100%;
+  background-color: rgb(39, 42, 47);
+  color: rgb(171, 190, 202)
 }

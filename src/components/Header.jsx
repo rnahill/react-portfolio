@@ -8,7 +8,6 @@ export default function Header() {
         <div>
             <header>
                 <Navigation />
-                <h1>Welcome</h1>
             </header>
         </div>
     );
