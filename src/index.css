@@ -1,7 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+main {
+  background-color: rgb(1, 4, 6);
+}
 
 footer {
   position: absolute;
@@ -14,13 +13,10 @@ footer {
   padding-top: 35px;
 }
 
-.black {
-  background-color: rgb(1, 4, 6) !important;
-}
-
 .portfolio-container {
   height: 90vh;
   min-height: 100%;
-  background-color: rgb(39, 42, 47);
-  color: rgb(171, 190, 202)
+  background-color: rgb(39, 42, 47) !important;
+  color: rgb(171, 190, 202);
+
 }

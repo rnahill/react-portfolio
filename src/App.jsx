@@ -10,9 +10,11 @@ function App() {
   
   return (
     <>
+      <main>
       <Navigation />
       <PortfolioContainer />
       <Footer />
+      </main>
     </>
   )
 };
