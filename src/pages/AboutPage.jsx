@@ -1,3 +1,6 @@
+
+export default function AboutPage() {
+
 <div>
     <h2>About me</h2>
     <img />
@@ -9,3 +12,6 @@
     My multifaceted background has equipped me to thrive in fast-paced environments. Coming from a medical background, problem-solving is second nature to me. Whether it's writing lines of code, crafting narratives, or working collaboratively with a team, I bring a versatile skill set and a positive attitude.
     </p>
 </div>
+
+
+};
