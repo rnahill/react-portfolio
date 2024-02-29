@@ -1,5 +1,6 @@
 main {
   background-color: rgb(1, 4, 6);
+  font-family: "Noto Sans JP", sans-serif !important;
 }
 
 footer {
@@ -11,6 +12,7 @@ footer {
   color: rgb(171, 190, 202);
   text-align: center;
   padding-top: 35px;
+  
 }
 
 .portfolio-container {
@@ -19,4 +21,12 @@ footer {
   background-color: rgb(39, 42, 47) !important;
   color: rgb(171, 190, 202);
 
+}
+
+.project-container {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
+.about-container {
+  font-family: "Noto Sans JP", sans-serif !important;
 }
