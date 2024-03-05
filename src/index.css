@@ -54,7 +54,7 @@ footer {
   height: 72px; /* 48px * 1.5 */
   text-decoration: none;
   overflow: hidden;
-  color: #1a1a1a;
+  color: rgb(171, 190, 202);
 }
 
 .rolling-text:hover .letter,

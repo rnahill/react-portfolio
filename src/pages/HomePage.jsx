@@ -10,9 +10,10 @@ export default function HomePage() {
     
         <div className="portfolio-container container-fluid row">
             <div className="col">
-            
-                <h2 id="title-plate">
+                <div id="name-plate">
                     <NamePlate />
+                </div>
+                <h2 id="title-plate">
                     Web Developer
                 </h2>
             </div>
