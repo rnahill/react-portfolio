@@ -1,5 +1,5 @@
 import NamePlate from "../components/NamePlate";
-import Project from "../components/Project"
+import Projects from "../components/Projects"
 
 
 export default function HomePage() {
@@ -21,7 +21,7 @@ export default function HomePage() {
             <div className="container border border-secondary shadow-lg p-3 m-5 rounded project-container col">
                 <h1>Projects</h1>
                 <div>
-                    <Project />
+                    <Projects />
                 </div>
             </div>
             
