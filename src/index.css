@@ -65,7 +65,7 @@ footer {
 
 .letter {
   display: inline-block;
-  transition: transform 0.3s ease; /* You can adjust duration and easing */
+  transition: transform 0.3s ease;
 }
 
 /* Add transition delay */
@@ -124,7 +124,7 @@ footer {
 .letter:nth-child(14) {
   transition-delay: 0.195s;
 }
-
+/*
 .letter:nth-child(15) {
   transition-delay: 0.21s;
 }
@@ -151,4 +151,4 @@ footer {
 
 .letter:nth-child(21) {
   transition-delay: 0.3s;
-}
+} */
