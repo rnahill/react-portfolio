@@ -40,7 +40,7 @@ export default function Project() {
                 </div>
                 <div className="border border-secondary col project-card">
                     <h5>E-Commerce Backend Application</h5>
-                    <Link to="https://rnahill.github.io/leaflit/">
+                    <Link to="https://github.com/rnahill/ecommerce-backend">
                         <img style={styles.cart} src={shoppingCart} />
                     </Link>
                 </div>

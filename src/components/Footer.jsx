@@ -1,5 +1,6 @@
 import githubIcon from "../assets/images/github-icon.png"
 import linkedinIcon from "../assets/images/linkedin-icon.png"
+import { Link } from 'react-router-dom';
 
 
 export default function Footer() {
@@ -8,11 +9,15 @@ export default function Footer() {
         <div>
             <footer className="row justify-content-center">
                 <div className="footer col-2">
-                    <img src={githubIcon} />
+                    <Link to="https://github.com/rnahill?tab=repositories">
+                        <img src={githubIcon} />
+                    </Link>
                     <p>GitHub</p>
                 </div>
                 <div className=" footer col-2">
-                <img src={linkedinIcon} />
+                <Link to="https://www.linkedin.com/in/reilly-nahill-10b8b51b0/">
+                    <img src={linkedinIcon} />
+                </Link>
                     <p>LinkedIn</p>
                 </div>
             </footer>
