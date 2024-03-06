@@ -14,6 +14,10 @@ footer {
   
 }
 
+h1 {
+  padding: 1% 0 2% 1%
+}
+
 .portfolio-container, .about-container {
   height: 90vh;
   min-height: 100%;
@@ -31,7 +35,7 @@ footer {
 .footer {
   font-size: 14px;
   position: relative;
-  bottom: 20%
+  bottom: 20%;
 }
 
 #name-plate {
@@ -46,6 +50,11 @@ footer {
   top: 30%;
   left: 25%;
   
+}
+
+.project-card {
+  padding: 2%;
+  margin: 2%;
 }
 
 .rolling-text {
