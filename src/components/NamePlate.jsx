@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
 const NamePlate = () => {
-  const [isMounted, setIsMounted] = useState(false);
+  const [isMounted, setIsMounted] = useState(true);
   const rollingTextRef = useRef(null);
 
   useEffect(() => {
