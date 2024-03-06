@@ -18,6 +18,12 @@ h1 {
   padding: 1% 0 2% 1%
 }
 
+
+.bio-container {
+font-size: 20px;
+width: 100px;
+}
+
 .portfolio-container, .about-container {
   height: 90vh;
   min-height: 100%;
