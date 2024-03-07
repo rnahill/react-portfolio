@@ -1,5 +1,6 @@
 import NamePlate from "../components/NamePlate";
 import Projects from "../components/Projects"
+import Footer from "../components/Footer";
 
 
 export default function HomePage() {
@@ -23,8 +24,10 @@ export default function HomePage() {
                 <div>
                     <Projects />
                 </div>
+                
             </div>
             
+            {/* <Footer /> */}
         </div>
     
     )

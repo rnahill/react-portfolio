@@ -7,14 +7,14 @@ export default function Footer() {
 
     return (
         <div>
-            <footer className="row justify-content-center">
-                <div className="footer col-2">
+            <footer className="row justify-content-center footer">
+                <div className="col-2">
                     <Link to="https://github.com/rnahill?tab=repositories">
                         <img src={githubIcon} />
                     </Link>
                     <p>GitHub</p>
                 </div>
-                <div className=" footer col-2">
+                <div className="col-2">
                 <Link to="https://www.linkedin.com/in/reilly-nahill-10b8b51b0/">
                     <img src={linkedinIcon} />
                 </Link>
