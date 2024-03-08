@@ -1,10 +1,9 @@
 
 .portfolio-container { 
-    /* height: 90vh;
-    width: 190vh;
-    min-height: 100%; */
+    /* border: 10px solid white; */
     background-color: rgb(39, 42, 47) !important;
     color: rgb(171, 190, 202);
+    
   
   }
 
