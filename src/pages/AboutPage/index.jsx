@@ -1,4 +1,5 @@
-import headshot from "../assets/images/resume-image.png"
+import headshot from "../../assets/images/resume-image.png"
+import "./style.css";
 
 const styles = {
     // img: {

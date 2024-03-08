@@ -1,6 +1,8 @@
-import githubIcon from "../assets/images/github-icon.png"
-import linkedinIcon from "../assets/images/linkedin-icon.png"
+import githubIcon from "../../assets/images/github-icon.png";
+import linkedinIcon from "../../assets/images/linkedin-icon.png";
 import { Link } from 'react-router-dom';
+import "./style.css"
+
 
 
 export default function Footer() {

@@ -2,6 +2,9 @@ import { useState } from 'react'
 import { Outlet } from 'react-router-dom';
 import './App.css'
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+
+
 
 
 import './index.css'
@@ -14,10 +17,8 @@ function App() {
       <main>
       <Navigation />
       <Outlet />
+      <Footer />
       </main>
-      <footer>
-        <p>hello</p>
-        </footer>
     </>
   )
 };

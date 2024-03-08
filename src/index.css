@@ -1,190 +1,30 @@
 body {
   font-family: "Signika Negative", sans-serif !important;
   background-color: rgb(39, 42, 47) !important;
-  min-height: 100vh;
+  /* min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
-footer {
-  
-  background-color: rgb(57, 70, 80);
-  color: rgb(171, 190, 202);
-  text-align: center;
-  
-  
-}
+
 
 h1 {
   padding: 1% 0 2% 1%
 }
 
 
-.bio-container {
-font-size: 20px;
-width: 100px;
-position: relative;
-left: 10%
-}
 
-.portfolio-container, .about-container {
-  /* height: 90vh;
-  width: 190vh;
-  min-height: 100%; */
-  background-color: rgb(39, 42, 47) !important;
-  color: rgb(171, 190, 202);
 
-}
 
-.project-container {
-  font-family: "Signika Negative", sans-serif !important;
-  max-height: 78vh;
-  
-}
 
-.footer {
-  font-size: 14px;
-  position: relative;
-  bottom: 35%;
-}
 
-#name-plate {
-  position: relative;
-  top: 30%;
-  left: 25%;
-  
-}
 
-#title-plate {
-  position: relative;
-  top: 30%;
-  left: 25%;
-  
-}
 
-#headshot {
-  position: relative;
-  left: 40%;
-  top: 10%
-}
 
-.project-card {
-  padding: 2%;
-  margin: 2%;
-}
 
-.skills-container{
-  position: relative;
-  top: 10%
-}
 
-.rolling-text {
-  display: inline-block;
-  font-family: 'Playfair Display', serif;
-  font-size: 48px;
-  line-height: 72px; /* 48px * 1.5 */
-  letter-spacing: 24px; /* 48px / 2 */
-  height: 72px; /* 48px * 1.5 */
-  text-decoration: none;
-  overflow: hidden;
-  color: rgb(171, 190, 202);
-}
 
-.rolling-text:hover .letter,
-.play .letter {
-  transform: translateY(-100%);
-}
 
-.block:last-child {
-  color: #d3a13b;
-}
 
-.letter {
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
 
-/* Add transition delay */
-.letter:nth-child(1) {
-  transition-delay: 0s;
-}
 
-.letter:nth-child(2) {
-  transition-delay: 0.015s;
-}
-
-.letter:nth-child(3) {
-  transition-delay: 0.03s;
-}
-
-.letter:nth-child(4) {
-  transition-delay: 0.045s;
-}
-
-.letter:nth-child(5) {
-  transition-delay: 0.06s;
-}
-
-.letter:nth-child(6) {
-  transition-delay: 0.075s;
-}
-
-.letter:nth-child(7) {
-  transition-delay: 0.09s;
-}
-
-.letter:nth-child(8) {
-  transition-delay: 0.105s;
-}
-
-.letter:nth-child(9) {
-  transition-delay: 0.12s;
-}
-
-.letter:nth-child(10) {
-  transition-delay: 0.135s;
-}
-
-.letter:nth-child(11) {
-  transition-delay: 0.15s;
-}
-
-.letter:nth-child(12) {
-  transition-delay: 0.165s;
-}
-
-.letter:nth-child(13) {
-  transition-delay: 0.18s;
-}
-
-.letter:nth-child(14) {
-  transition-delay: 0.195s;
-}
-/*
-.letter:nth-child(15) {
-  transition-delay: 0.21s;
-}
-
-.letter:nth-child(16) {
-  transition-delay: 0.225s;
-}
-
-.letter:nth-child(17) {
-  transition-delay: 0.24s;
-}
-
-.letter:nth-child(18) {
-  transition-delay: 0.255s;
-}
-
-.letter:nth-child(19) {
-  transition-delay: 0.27s;
-}
-
-.letter:nth-child(20) {
-  transition-delay: 0.285s;
-}
-
-.letter:nth-child(21) {
-  transition-delay: 0.3s;
-} */

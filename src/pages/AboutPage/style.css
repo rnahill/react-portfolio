@@ -1,0 +1,22 @@
+.bio-container {
+    font-size: 20px;
+    width: 100px;
+    position: relative;
+    left: 10%
+    }
+
+    .about-container { 
+        background-color: rgb(39, 42, 47) !important;
+        color: rgb(171, 190, 202);
+    }
+
+    #headshot {
+        position: relative;
+        left: 40%;
+        top: 10%
+      }
+
+      .skills-container{
+        position: relative;
+        top: 10%
+      }

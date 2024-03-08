@@ -1,6 +1,6 @@
-import NamePlate from "../components/NamePlate";
-import Projects from "../components/Projects"
-import Footer from "../components/Footer";
+import NamePlate from "../../components/NamePlate";
+import Projects from "../../components/Projects"
+import "./style.css";
 
 
 export default function HomePage() {
@@ -9,7 +9,7 @@ export default function HomePage() {
     
 
     return (
-    
+        
         <div className="portfolio-container container-fluid row">
             <div className="col">
                 <div id="name-plate">
@@ -27,9 +27,10 @@ export default function HomePage() {
                 
             </div>
             
-            {/* <Footer /> */}
+            
         </div>
-    
+        
+        
     )
 
 

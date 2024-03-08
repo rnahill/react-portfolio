@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import gameHarbour from "../assets/images/gameharbour-image.png"
-import leaflit from "../assets/images/leaflit-image.png"
-import shoppingCart from "../assets/images/shopping-cart.png"
+import gameHarbour from "../../assets/images/gameharbour-image.png"
+import leaflit from "../../assets/images/leaflit-image.png"
+import shoppingCart from "../../assets/images/shopping-cart.png"
+import "./style.css";
 
 const styles = {
     img: {
