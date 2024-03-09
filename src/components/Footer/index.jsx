@@ -1,5 +1,5 @@
-import githubIcon from "../../assets/images/github-icon.png";
-import linkedinIcon from "../../assets/images/linkedin-icon.png";
+import githubIcon from "../../assets/images/github-icon1.png";
+import linkedinIcon from "../../assets/images/linkedin-icon1.png";
 import { Link } from 'react-router-dom';
 import "./style.css"
 
@@ -9,20 +9,18 @@ export default function Footer() {
 
     return (
         <div>
-            <footer className="row justify-content-center footer">
-                <div className="col-2">
+            <div className="footer d-flex flex-row-reverse">
+                <div className="p-2">
                     <Link to="https://github.com/rnahill?tab=repositories">
                         <img src={githubIcon} />
                     </Link>
-                    <p>GitHub</p>
                 </div>
-                <div className="col-2">
+                <div className="p-2">
                 <Link to="https://www.linkedin.com/in/reilly-nahill-10b8b51b0/">
                     <img src={linkedinIcon} />
                 </Link>
-                    <p>LinkedIn</p>
                 </div>
-            </footer>
+            </div>
         </div>
     )
     

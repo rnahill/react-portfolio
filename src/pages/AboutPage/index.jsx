@@ -13,7 +13,7 @@ const styles = {
 export default function AboutPage() {
     return (
         <div className="row about-container">
-            <h2 className="d-flex justify-content-center align-items-center">About me</h2>
+            <h2 className="d-flex justify-content-center align-items-center mt-5">About me</h2>
             <div className="col">
                 <img src={headshot} id="headshot" className="mb-5"/>
                 <div className="d-flex justify-content-center mt-5 skills-container">
