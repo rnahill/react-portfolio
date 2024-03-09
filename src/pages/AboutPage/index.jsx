@@ -23,7 +23,7 @@ export default function AboutPage() {
             </div>
 
             <div className="col-7">
-                <p className="col-8 container border border-secondary shadow-lg p-3 m-4 rounded bio-container">
+                <p className="col-8 container-fluid border border-secondary shadow-lg p-3 m-4 rounded bio-container">
                     I am a dedicated student currently enrolled at the University of Pennsylvania, pursuing a certificate in both front and back-end web development. My journey into the world of technology began with a unique path. I began my professional career focusing on pre-physical therapy studies, eventually pivoting towards Veterinary Technology. I earned my Associate's of Veterinary Technology from Manor College, and worked as a veterinary technician before deciding to pursue my passion for tech and coding.
                     <br />
                     <br />
