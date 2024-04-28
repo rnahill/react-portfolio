@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import './App.css'
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import ConstructionPage from "./pages/ConstructionPage"
 
 
 
@@ -16,9 +17,10 @@ function App() {
   return (
     <>
       <main>
-      <Navigation />
+      {/* <Navigation />
       <Outlet />
-      <Footer />
+      <Footer /> */}
+      <ConstructionPage />
       </main>
     </>
   )
