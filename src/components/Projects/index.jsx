@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import gameHarbour from "../../assets/images/gameharbour-image.png"
 import leaflit from "../../assets/images/leaflit-image.png"
 import shoppingCart from "../../assets/images/shopping-cart.png"
+import gigHub from "../../assets/images/gighub-img.png"
 import "./style.css";
 
 const styles = {
@@ -23,10 +24,13 @@ export default function Project() {
             <section className="row">
                 <div className="border border-secondary col project-card">
                     <h5>GigHub</h5>
+                    <Link to="https://github.com/Aaron-Heath/gighub?tab=readme-ov-file">
+                        <img style={styles.img} src={gigHub} />
+                    </Link>
                 </div>
                 <div className="border border-secondary col project-card">
                     <h5>Game Harbour</h5>
-                    <Link to="https://game-harbour-123-8c07ddc3abc7.herokuapp.com/login">
+                    <Link to="https://github.com/rnahill/Game-Harbour">
                         <img style={styles.img} src={gameHarbour} />
                     </Link>
                 </div>
@@ -35,7 +39,7 @@ export default function Project() {
             <section className="row">
                 <div className="border border-secondary col project-card">
                     <h5>LeafLit</h5>
-                    <Link to="https://rnahill.github.io/leaflit/">
+                    <Link to="https://github.com/rnahill/leaflit">
                         <img style={styles.img} src={leaflit} />
                     </Link>
                 </div>
