@@ -22,8 +22,6 @@ https://www.linkedin.com/in/reilly-nahill-10b8b51b0/
 
 Thank you for your patience!
 
-
-
 ## Installation
 
 No installation required.
@@ -42,7 +40,6 @@ https://github.com/alvarotrigo/react-fullpage?tab=readme-ov-file
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+GPL-3.0
 
 
