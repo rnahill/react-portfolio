@@ -10,21 +10,24 @@
   .project-container {
     font-family: "Signika Negative", sans-serif !important;
     color: rgb(171, 190, 202);
-    position: relative;
+    /* position: relative; */
     
   }
 
   #name-plate {
-    position: relative;
+    /* position: relative;
     top: 30%;
-    left: 25%;
+    left: 25%; */
+    margin-top: 40%;
+    margin-left: 10%;
     
   }
   
   #title-plate {
-    position: relative;
+    /* position: relative;
     top: 30%;
-    left: 25%;
+    left: 25%; */
+    margin-left: 10%;
     color: rgb(171, 190, 202);
     
   }

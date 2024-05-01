@@ -17,10 +17,10 @@ function App() {
   return (
     <>
       <main>
-      {/* <Navigation />
+      <Navigation />
       <Outlet />
-      <Footer /> */}
-      <ConstructionPage />
+      <Footer />
+      {/* <ConstructionPage /> */}
       </main>
     </>
   )

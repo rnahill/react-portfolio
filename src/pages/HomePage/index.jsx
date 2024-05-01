@@ -11,7 +11,7 @@ export default function HomePage() {
 
     return (
         <>
-            <div className="d-flex flex-column">
+            <div className="d-flex flex-column flex-wrap">
                 <div className="row portfolio-container">
                     <div className="col">
                         <div id="name-plate">
