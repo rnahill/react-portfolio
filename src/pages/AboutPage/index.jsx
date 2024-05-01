@@ -2,14 +2,6 @@ import headshot from "../../assets/images/resume-image.png"
 import Card from 'react-bootstrap/Card';
 import "./style.css";
 
-const styles = {
-    // img: {
-    //     maxHeight: "200px",
-    //     maxWidth: "200px",
-    //     margin: "17%"
-    // },
-
-};
 
 export default function AboutPage() {
     return (
